@@ -1,0 +1,44 @@
+Each package is licensed to you by its owner. NuGet is not responsible for, nor does it grant any licenses to, third-party packages. Some packages may include dependencies which are governed by additional licenses. Follow the package source (feed) URL to determine any dependencies.
+
+Package Manager Console Host Version 4.5.0.4685
+
+Type 'get-help NuGet' to see all available NuGet commands.
+
+PM> Install-Package Microsoft.NetFramework.Analyzers -ProjectName ConsoleDotNet452
+
+
+Attempting to gather dependency information for package 'Microsoft.NetFramework.Analyzers.2.6.0' with respect to project 'ConsoleDotNet452', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 28.11 ms
+Attempting to resolve dependencies for package 'Microsoft.NetFramework.Analyzers.2.6.0' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'Microsoft.NetFramework.Analyzers.2.6.0'
+Resolved actions to install package 'Microsoft.NetFramework.Analyzers.2.6.0'
+Retrieving package 'Microsoft.NetFramework.Analyzers 2.6.0' from 'nuget.org'.
+  GET https://api.nuget.org/v3-flatcontainer/microsoft.netframework.analyzers/2.6.0/microsoft.netframework.analyzers.2.6.0.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/microsoft.netframework.analyzers/2.6.0/microsoft.netframework.analyzers.2.6.0.nupkg 40ms
+Installing Microsoft.NetFramework.Analyzers 2.6.0.
+Adding package 'Microsoft.NetFramework.Analyzers.2.6.0' to folder 'C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\packages'
+Added package 'Microsoft.NetFramework.Analyzers.2.6.0' to folder 'C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\packages'
+Added package 'Microsoft.NetFramework.Analyzers.2.6.0' to 'packages.config'
+Executing script file 'C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\packages\Microsoft.NetFramework.Analyzers.2.6.0\tools\install.ps1'
+Successfully installed 'Microsoft.NetFramework.Analyzers 2.6.0' to ConsoleDotNet452
+Executing nuget actions took 3.1 sec
+Time Elapsed: 00:00:06.3854288
+PM> Install-Package Microsoft.NetFramework.Analyzers -ProjectName ConsoleDotNet46
+Restoring NuGet package Microsoft.NetFramework.Analyzers.2.6.0.
+Adding package 'Microsoft.NetFramework.Analyzers.2.6.0' to folder 'C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\packages'
+Added package 'Microsoft.NetFramework.Analyzers.2.6.0' to folder 'C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\packages'
+  GET https://aicommunity.pkgs.visualstudio.com/_packaging/522b8f66-d8f6-4293-bfda-bc587550cf1b/nuget/v3/registrations2/microsoft.netframework.analyzers/index.json
+  GET https://api.nuget.org/v3/registration3-gz-semver2/microsoft.netframework.analyzers/index.json
+  GET https://aicommunity.pkgs.visualstudio.com/_packaging/48abd74b-f5e9-434f-b1ab-a2f65c1b90e7/nuget/v3/registrations2/microsoft.netframework.analyzers/index.json
+  OK https://api.nuget.org/v3/registration3-gz-semver2/microsoft.netframework.analyzers/index.json 30ms
+Restoring packages for C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\ConsoleDotNet46.csproj...
+Installing NuGet package Microsoft.NetFramework.Analyzers 2.6.0.
+Committing restore...
+Generating MSBuild file C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\obj\ConsoleDotNet46.csproj.nuget.g.props.
+Writing lock file to disk. Path: C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\obj\project.assets.json
+Restore completed in 567.56 ms for C:\src\StaticCryptoAnalyzers\StaticCryptoAnalyzers\ConsoleDotNet46\ConsoleDotNet46.csproj.
+Successfully installed 'Microsoft.NetFramework.Analyzers 2.6.0' to ConsoleDotNet46
+Executing nuget actions took 939.83 ms
+Time Elapsed: 00:00:02.8517172
+PM> 
