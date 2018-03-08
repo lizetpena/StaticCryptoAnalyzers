@@ -4,3 +4,7 @@
 
 /ConsoleDotNet46/obj
 /.vs
+/ConsoleNET452/obj/Debug
+/ConsoleNET452/obj/Release
+/ConsoleDotNet46/bin/Debug/netcoreapp2.0
+/ConsoleNET452/bin/Debug
